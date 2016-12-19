@@ -7,7 +7,7 @@ This is a simple kotlin demo of http, and it's modefied by [Fuel](https://github
 ###Demo of using:  
 
 
-method: ```fun request(method: Method, path: String, parms: List<Pair<String, Any?>>? = null): Request```,you can find get demo from Manager.
+method: ```fun get(path: String, parameters: List<Pair<String, Any?>>? = null, successCallBack: (response: Response) -> Unit = null!!, failCallBack: (response: Response, request: Request) ->Unit = null!!) ```,you can find get demo from Manager.
 
 Simple demo:  
 
